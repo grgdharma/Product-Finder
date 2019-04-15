@@ -1,0 +1,325 @@
+.product-finder-products{
+  width: 100%;
+}
+.product-finder-product-cat img{
+	width: 100%;
+}
+.product-finder-bottom {
+    padding: 15px;
+    background: #000000;
+    color: #fff;
+}
+.product-finder-product-cat-item{
+	padding-bottom: 30px;
+}
+label.checkbox-inline{
+	color: #fff;
+}
+.checkbox-inline{
+	cursor: pointer;
+
+}
+.products-entry{
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 30px;
+}
+.products-thumb:hover .item-bottom{
+	bottom: 0;
+	transform: translateY( 0px);
+}
+.products-thumb .item-bottom{
+	bottom: 0;
+	transform: translateY( 200px);
+	transition: transform 800ms, background-color 400ms ease-in-out;
+}
+.products-thumb img{
+	width: 100%;
+}
+.products-thumb .item-bottom .shipping-costs-info, 
+.plugin-content .item-description{
+	display: none;
+}
+.plugin-content{
+	padding-top: 15px;
+}
+.plugin-content h4>a{
+	font-weight: 300;
+    font-family: Roboto !important;
+}
+.products-thumb {
+    position: relative;
+    overflow: hidden;
+}
+.products-content .item-bottom{
+	display: none;
+}
+.checkbox-inline input{
+	margin-right: 8px;
+}
+#loading-overly {
+	/*position: absolute;*/
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	/*background-color:rgba(9, 9, 9, 0.45);*/
+	z-index: 9;
+}
+
+#loading-overly img{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50% , -50%);
+	width: 150px;
+  z-index: 9;
+}
+.product-finder-clearfix{
+	clear: both;
+}
+
+#second-level,#third-level,#fourth-level,#fifth-level{
+	display: inline-block;
+	width: 100%;
+}
+.back-btn{
+	margin-bottom: 30px;
+	padding: 0px 8px;
+  margin-top: -20px; 
+}
+.back-btn button{
+	
+}
+#prev{
+	display: inline-block;
+  margin-bottom: 0;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: none;
+  white-space: nowrap;
+  line-height: 1.42857;
+  color: #333;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+  -khtml-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  font-weight: 500;
+  font-size: 18px;
+  background-color: #ffd526;
+  border-bottom: 3px solid #111;
+  padding: 17px 86px;
+}
+#prev:hover{
+	 border-bottom-color: #de183c;
+    color: black;
+}
+/*brdcrum*/
+.product-finder-brdcum {
+
+}
+.product-finder-brdcum ul{
+	display: inline-block;
+	width: 100%;
+}
+.product-finder-brdcum ul li{
+	float: left;
+	padding-left: 15px;
+}
+
+.product-finder-item{
+	margin: 15px;
+}
+.product-finder-item>a{
+	display: block;
+    text-align: center;
+    border: 1px solid #e6e6e6;
+}
+.product-finder-body{
+	background: #de183c;
+    padding: 15px;
+    min-height: 100px;
+}
+.product-finder-body h4{
+	font-size: 18px;
+}
+.product-finder-body h4>a{
+	color: #fff;
+}
+.product-finder-footer h5{
+	font-size: 20px;
+    padding-top: 10px;
+    text-align: right;
+    color: #de183c;
+    font-weight: 600;
+}
+
+.padding-top{
+	display: inline-block;
+}
+
+.not-found{
+	font-size: 30px;
+    text-transform: uppercase;
+    color: #de183c;
+    padding: 50px 0;
+}
+
+
+
+/*checkbox*/
+/*Checkboxes styles*/
+.product-finder-bottom input[type="checkbox"] { display: none; }
+
+.product-finder-bottom input[type="checkbox"] + label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 20px;
+  font: 14px/20px 'Open Sans', Arial, sans-serif;
+  color: #fff;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.product-finder-bottom input[type="checkbox"] + label:last-child { margin-bottom: 0; }
+
+.product-finder-bottom input[type="checkbox"] + label:before {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #fff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: .6;
+  -webkit-transition: all .12s, border-color .08s;
+  transition: all .12s, border-color .08s;
+}
+
+.product-finder-bottom input[type="checkbox"]:checked + label:before {
+  width: 10px;
+  top: -5px;
+  left: 5px;
+  border-radius: 0;
+  opacity: 1;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/*tabs*/
+.tab-title {
+  display: none;
+}
+.current .tab-title {
+  display: block;
+  float: right;
+    margin-left: 10px;
+}
+.product-finder-product_cat-lists .tabs span {
+  /*float: left;*/
+}
+.product-finder-product_cat-lists ul.tabs{
+      margin: 0px;
+      padding: 0px;
+      list-style: none;
+      overflow: hidden;
+    }
+    .product-finder-product_cat-lists ul.tabs li{
+      	background: #222;
+    	color: #fff;
+    	display: inline-block;
+    	padding: 15px 25px;
+    	pointer-events: none;
+		overflow: hidden;
+    }
+    .click-enable {
+      pointer-events: visible !important;
+      cursor: pointer;
+    }
+    .product-finder-product_cat-lists ul.tabs li.current{
+      background: #ededed;
+      color: #222;
+    }
+
+    .product-finder-product_cat-lists .tab-content{
+      padding: 15px 0;
+    }
+
+    .product-finder-product_cat-lists .tab-content.current{
+      display: inherit;
+    }
+
+    /*animation*/
+    .product-finder-product_cat-lists .tabs .current .animate{
+      /* for chrome and safari*/
+           -webkit-animation-duration: 1s;
+            -webkit-animation-name: slidein;
+		
+            /*for firefox*/
+            -moz-animation-duration: 1s;
+            -moz-animation-name: slidein;
+
+              /* for opera*/
+           -o-animation-duration: 1s;
+            -o-animation-name: slidein;
+
+              /* Standard syntax*/
+            animation-duration: 1s;
+            animation-name: slidein;
+    }
+
+    @-webkit-keyframes slidein {
+            from {
+                margin-left: 100%;
+                width: 300%;
+            }
+
+            to {
+                margin-left: 0%;
+                width: 100%;
+            }
+        }
+
+        @-moz-keyframes slidein {
+            from {
+                margin-left: 100%;
+                width: 300%;
+            }
+
+            to {
+                margin-left: 0%;
+                width: 100%;
+            }
+        }
+         @-o-keyframes slidein {
+            from {
+                margin-left: 100%;
+                width: 300%;
+            }
+
+            to {
+                margin-left: 0%;
+                width: 100%;
+            }
+        }
+          @keyframes slidein {
+            from {
+                margin-left: 100%;
+                width: 300%;
+            }
+
+            to {
+                margin-left: 0%;
+                width: 100%;
+            }
+        }
