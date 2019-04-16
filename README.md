@@ -1,4 +1,4 @@
-<b>Woocommerce Product Finder</b><br/>
+<b>Product Finder</b><br/>
 Product filter plugin for WooCommerce that allows your site customers filter products by custom categories.<br>
 Plugin tested upto WooCommerce Version 3.5.7 and WP Version 5.1.1 
 <br/>
